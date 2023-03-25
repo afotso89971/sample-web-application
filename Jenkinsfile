@@ -6,7 +6,7 @@ currentBuild.displayName = "Final_Demo # "+currentBuild.number
         }
 
 pipeline{
-	   agent { label 'node01' }
+	   agent { label 'node1' }
 //            tools{
 
 //                maven '3.9.0'
